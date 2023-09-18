@@ -1,0 +1,43 @@
+/*
+(if else )
+Write a program to scan the value of day from 1 to 7 and print the day accordingly
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main() {
+
+    int day;
+    printf("Enter the value of day from 1->7\n");
+    scanf("%d", &day);
+    if (day==1)
+    {
+        printf("SUNDAY");
+    }
+    else if (day==2)
+    {
+        printf("MONDAY")
+    }
+    else if (day==3)
+    {
+        printf("TUESDAY")
+    }
+    else if (day==4)
+    {
+        printf("WEDNESDAY")
+    }
+    else if (day==5)
+    {
+        printf("THURSDAY")
+    }
+    else if (day==6)
+    {
+        printf("FRIDAY")
+    }
+    else
+    {
+        printf("SATURDAY")
+    }
+    getch();
+}

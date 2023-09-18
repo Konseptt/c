@@ -1,0 +1,3 @@
+/*
+Write a program to scan the value of percentage and display the results accordingly
+*/
